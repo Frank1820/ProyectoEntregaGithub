@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+/* FLOAT para cuadrar imagenes dentro de parrafos y cosas asi.*/
+
+/*p{
+float:left;
+	width:200px;
+	height:200px;
+	overflow:hidden;
+	border:1px solid green;
+}*/
+/*overflow: hidden es para ocultar el texto que sobra que no cabe tio.*/
+
+/* se suele utilizar un float left  en el manu y un float rigt en el aside, para que el main rellene espacios.*/
+
+ul#menu{
+	background-color:#ffaaaa;
+	width:20%;
+	float:left;
+
+
+}
+aside{
+	background-color:#aaffaa;
+	width:20%;
+	float:right;
+
+
+
+}
+
+main{
+
+	background-color:#aaaaff;
+	width:50%;
+	margin:auto;
+
+
+
+
+}
